@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "deadly_world",
+	"version": "${version}",
+	"name": "Deadly World",
+	"description": "Cudovista jacaju tokom vremena, brzi tick rate, a svaka smrt skracuje zivot.",
+	"authors": ["MihajloPMF"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.example.deadlyworld.DeadlyWorld"]
+	},
+	"mixins": ["deadly_world.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": ">=26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
